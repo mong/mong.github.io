@@ -21,7 +21,7 @@ Sykehusviseren er per 11. november 2020 på Amazon Web Services (AWS) og kjører
 
 ### Oppgaver gitt til Jupiter
 
-Utvikle et forslag til ny stack.
+- Utvikle et forslag til ny stack.
 
 ## Første sprint 18. november 2020
 
@@ -53,6 +53,8 @@ Det ble gitt noen oppgaver tilhørende front-end-delen (se liste under). Det ble
 - Sorter indikator i definert rekkefølge (ikke alfabetisk som i dag)
 - Få opp advarsel hvis nettside åpnes i gammel nettleser (Internet Explorer)
 - Utvide testing av koden
+- Implementere automatisk formatering av kode, testing og typesjekking.
+- Lage et forslag til design av sykehusviser i Helse Nord-farger.
 
 ### Oppgaver til SKDE
 
@@ -60,9 +62,27 @@ Det ble gitt noen oppgaver tilhørende front-end-delen (se liste under). Det ble
 
 ## Sprint 2. desember 2020
 
+Oppgavene gitt til forrige sprint var alle fullført eller nær fullført. SKDE var positive til å implementere de forslag til ny stack som ble presentert i forrige møte.
+
 ### Oppgaver gitt til Jupiter
 
 - Erstatte `Shiny` som backend med `node.js`
 - Migrere stack fra dagens løsning til løsning foreslått av Jupiter
 - Lukke *Vis alle*-bildet med *Esc*
 - Implementere `React Router` eller tilsvarende. Det vi ønsker er at valg som er gjort i appen vises i url-feltet. Man kan da sende lenke med de valg som er gjort, bokmerke side med egne valg, og gå tilbake til tidligere valg (tilbake-knappen i nettleser).
+- Lage forslag til design av inngangsportal
+
+## Sprint 16. desember 2020
+
+Implementering av ny stack ble presentert, inkludert bedring i ytelse (se figur). Forslag til design av inngangsportal ble også presentert.
+
+<img src="fig/jupiter_performance.png" alt="alt text" width="600"/>
+
+### Oppgaver gitt til Jupiter
+
+- Fullføre migrering til ny stack, i samarbeid med SKDE
+- Fullføre arbeidet med `React Router` eller tilsvarende.
+
+### Oppgaver til SKDE
+
+- Undersøke hvilke verktøy og løsninger vi ønsker for analyse og monitorering av nettsidene.
