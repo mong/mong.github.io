@@ -29,3 +29,15 @@ Grenen `master` er i alle *repositories* beskyttet for direkte commits. Alle end
 - [qmongr](https://github.com/mong/qmongr) og [qmongr-base-r](https://github.com/mong/qmongr-base-r): Shiny-applikasjonen bak https://skde-resultater.no/. Denne skal erstattes av qmongjs. 
 
 - [tmongr](https://github.com/mong/tmongr) og [tmongr-base-r](https://github.com/mong/tmongr-base-r): Shiny-applikasjonen bak tabellverket. Skal på sikt bakes inn i qmongjs.
+
+## Eksterne komponenter
+
+Koden [qmongjs](https://github.com/mong/qmongjs) er avhengig av følgende [eksterne bibliotek](https://github.com/mong/qmongjs/network/dependencies): 
+
+- [TypeScript](https://github.com/microsoft/TypeScript). Store deler av koden er skrevet i Typescript, for å redusere sannsynligheten for bugs. Utviklet og utvikles av Microsoft og ekstremt utbredt. 
+- [React](https://github.com/facebook/react). qmongjs er en React-app. Utviklet og utvikles av Facebook og ekstremt utbredt. 
+- [Sentry](https://github.com/getsentry/sentry-javascript) for automatisk rapportering av feil som oppstår under bruk av nettside.  
+- [D3](https://github.com/d3/d3) for visualisering/figurer.  
+- [query-string](https://github.com/sindresorhus/query-string) 
+- [react-query](https://github.com/tannerlinsley/react-query) 
+- ...
