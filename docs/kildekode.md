@@ -12,9 +12,9 @@ Det er et krav til medlemmer av mong på github at de har aktivert 2FA (krav gje
 
 - [qmongjs](https://github.com/mong/qmongjs): Selve nettsiden (front-end) skrevet i javascript/typescript og bruker React.  
 
-- [mong-api](https://github.com/mong/mong-api): API for kommunikasjon mellom nettside og database. 
+- [mong-api](https://github.com/mong/mong-api): API for kommunikasjon mellom nettside og database.
 
-- [imongr](https://github.com/mong/imongr): Koden bak nettside for å legge inn data til databasen. Kodet i R og Shiny. Leveres i et docker image som brukes av EC2-instanser på AWS. 
+- [imongr](https://github.com/mong/imongr): Koden bak nettside for å legge inn data til databasen. Kodet i R og Shiny. Leveres i et docker image som brukes av EC2-instanser på AWS. 
 
 - [lb-rp](https://github.com/mong/lb-rp): Lastbalanserer og reverse proxy, basert på NGINX og levert som et docker image, som står foran shinyproxy. 
 
