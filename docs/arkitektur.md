@@ -2,7 +2,7 @@
 
 ## Databasediagram
 
-<img src="https://raw.githubusercontent.com/mong/db/master/er_imongr.png" alt="Databasediagram fra mong/db/er_imongr.png" width="100%">
+<img src="https://raw.githubusercontent.com/mong/db/master/er_imongr.png" alt="Databasediagram fra mong/db/er_imongr.png">
 
 ### Beskrivelse av tabellene i databasen
 
@@ -22,4 +22,4 @@ nation | Norge
 
 ## Systemskisse
 
-<img src="fig/aws_setup.png" alt="AWS-setup" width="100%">
+<img src="fig/aws_setup.png" alt="AWS-setup">
