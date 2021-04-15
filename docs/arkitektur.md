@@ -2,7 +2,7 @@
 
 ## Databasediagram
 
-<img src="https://raw.githubusercontent.com/mong/db/master/er_imongr.png" alt="Databasediagram fra mong/db/er_imongr.png">
+![image](https://user-images.githubusercontent.com/136346/114875111-41228480-9dfd-11eb-9e1b-ac6a15b122d2.png)
 
 ### Beskrivelse av tabellene i databasen
 
