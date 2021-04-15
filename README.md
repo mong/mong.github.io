@@ -9,4 +9,5 @@ Dette skal være den komplette samling av dokumentasjon om utvikling og drift av
 * [Forvaltning av kildekode](kildekode.md)
 * [Plan for driftsfase](drift.md)
 * [Personvern, ROS og Økonomi](annet.md)
+* [Utvikling av kode](utvikling.md)
 * [Kort om Jupiter-jobb](jupiter.md)
