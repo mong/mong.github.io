@@ -1,6 +1,5 @@
 <!-- docs/_sidebar.md -->
 
-* [Hjem](/)
 * [Prosjekt](prosjekt.md)
 * [Programvarearkitektur](arkitektur.md)
 * [Forvaltning av kildekode](kildekode.md)
