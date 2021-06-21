@@ -21,6 +21,15 @@ CREATE USER imongr IDENTIFIED BY 'imongr'; -- lag imongr-bruker med passord imon
 GRANT ALL PRIVILEGES ON imongr TO 'imongr'; -- Gi bruker tilgang til imongr database
 ```
 
+Hente inn ny database-dump:
+```sql
+drop database imongr;
+create database imongr;
+use imongr;
+source <path>/<to>/<file>/imongr.sql;
+```
+
+
 ### Kjøre opp mong-api
 
 Denne må kjøre for at `qmongjs` skal få tak i data.
