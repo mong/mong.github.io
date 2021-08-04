@@ -13,7 +13,7 @@ orgnr <- read.csv2("orgnr/orgnr.csv") %>%
   dplyr::filter(!stringr::str_detect(full_name, "HABIL")) %>%
   dplyr::filter(!stringr::str_detect(full_name, "HABL")) %>%
   dplyr::distinct(short_name, .keep_all = TRUE) %>%
-  dplyr::transmute(sjukehus = dplyr::case_when(short_name == "Kristiansand" ~ "Kristiansand S",
+  dplyr::transmute(short_name = dplyr::case_when(short_name == "Kristiansand" ~ "Kristiansand S",
                                             short_name == "Kristiansund" ~ "Kristiansund N",
                                             short_name == "Diakonhjemmet sykehus AS" ~ "Diakonhjemmet sykehus",
                                             short_name == "Lovisenberg diakonale sykehus AS" ~ "Lovisenberg diakonale sykehus",
