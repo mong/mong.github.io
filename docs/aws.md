@@ -8,7 +8,19 @@ For tiden ufullstendig, men her kommer forhåpentligvis en komplett steg-for-ste
 
 Lag en `Dockerfile` med appen som eksponerer port 80, med linjen `EXPOSE 80`. Eksempler på en slik `Dockerfile` kan finnes i repositoriene til [tmongr](https://github.com/mong/tmongr/blob/master/Dockerfile) (en Shiny-app) og [mong-api](https://github.com/mong/mong-api/blob/master/Dockerfile) (node-app).
 
-### Elastic Beanstalk og Dockerhub
+### Elastic Beanstalk
+
+- Lag en ny applikasjon (`Create a new application`)
+- Lag et nytt miljø (`Create a new environment`)
+- Velg å lage nettside
+- Bruk Docker og opprett Sample application:
+
+![image](https://user-images.githubusercontent.com/136346/145847791-e26c4beb-f811-44d5-b75a-1926dfecc7c8.png)
+
+- Create environment
+- Configuration -> Capacity -> Load balanced (med standard-valg).
+
+### Dockerhub
 
 Dette er en beskrivelse av hvordan vi kan få _Github Actions_ til å dytte _Docker_-bilde til _Dockerhub_ (eller lignende) og samtidig gi beskjed til _Elastic Beanstalk_ om å bruke nytt bilde. Under er et eksempel på en _Github Actions_-fil til dette formålet.
 
