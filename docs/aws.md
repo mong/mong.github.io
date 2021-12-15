@@ -123,6 +123,9 @@ jobs:
 
 - Gå inn på _Load Balancers_ under EC2.
 - Finn den som hører til _EC2_-instansen som ble snurret opp av _Elastic Beanstalk_. Velg den som er dannet omtrent da din _Elastic Beanstalk_ ble dannet, gå på fanen _Listeners_, trykk på lenke og så på neste lenke (det må finnes en annen og enklere måte å finne riktig _Load Balancers_ ...).
+- Hvis denne er `classic` så må den migreres over til `application`:
+
+![image](https://user-images.githubusercontent.com/136346/146148343-cb211f78-7559-4c4f-af4e-196f82d58e5d.png)
 
 - Legg til to _Security groups_ under _Description/Edit security groups_: WebDMZ (Allow webserver access from anywhere) og world (Facing outward).
 
