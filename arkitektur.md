@@ -2,7 +2,7 @@
 
 ## Databasediagram
 
-![image](https://user-images.githubusercontent.com/136346/114875111-41228480-9dfd-11eb-9e1b-ac6a15b122d2.png)
+<img src="fig/imongr_datamodel.png" alt="imongr data model">
 
 ### Beskrivelse av tabellene i databasen
 
