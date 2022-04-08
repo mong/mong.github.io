@@ -20,4 +20,4 @@ npx netlify-cms-proxy-server
 yarn install && yarn run dev
 ```
 
-- Åpne [localhost:3000/admin](http://localhost:3000/admin), eventuelt [localhost:3000/helseatlas/admin](http://localhost:3000/helseatlas/admin)
+- Åpne [localhost:3000/admin](http://localhost:3000/admin/index.html), eventuelt [localhost:3000/helseatlas/admin](http://localhost:3000/helseatlas/admin/index.html)
