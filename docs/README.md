@@ -8,4 +8,5 @@ Dette skal være en samling av dokumentasjon om utvikling og drift av SKDE sine 
 * [Forvaltning av kildekode](kildekode.md)
 * [Utvikling av kode](utvikling.md)
 * [AWS](aws.md)
+* [imongr](imongr.md)
 * [Tilrettelegge data](tilrettelegge.md)
