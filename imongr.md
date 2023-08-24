@@ -1,9 +1,11 @@
-# En beskrivelse av hvordan `imongr` kjører på *AWS*
+# Diverse dokumentasjon om imongr
 
-`imongr` kjøres som docker-containere, som snurres opp av `shinyproxy`, som også kjøres som en docker-container. Alt dette kjører på en egen EC2 instans, som er manuelt satt opp.
+## En beskrivelse av hvordan `imongr` kjører på *AWS*
 
-## Shinyproxy
+`imongr` kjøres som docker-containere, som snurres opp av `shinyproxy`, som også kjøres som en docker-container. Alt dette kjører på en egen EC2 instans som er manuelt satt opp.
 
-Docker-images `hnskde/shinyproxy-imongr`, som er det som snurres opp som shinyproxy, er basert på følgende Docker-fil: https://github.com/mong/shinyproxy/blob/main/imongr/Dockerfile. Denne bygges manuelt og dyttes opp til dockerhub.
+### Shinyproxy
+
+Docker-images `hnskde/shinyproxy-imongr`, som er det som snurres opp som shinyproxy, er basert på følgende Docker-fil: https://github.com/mong/shinyproxy/blob/main/imongr/Dockerfile. Denne bygges sannsynligvis manuelt og dyttes opp til dockerhub.
 
 
